@@ -1,0 +1,91 @@
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+    //PRIMER Ejercicio
+        System.out.println("\n\n PRIMER EJERCIO\n\n");
+    
+        String s1 = "Buenos noche,Dia ING Arturo?";
+        Integer n1 = 42;
+        Double d1 = 6.172233;
+        Boolean b1 = true;
+        System.out.println("String: " + s1);
+        System.out.println("Integer: " + n1);
+        System.out.println("Double: " + d1);
+        System.out.println("Boolean: " + b1);
+        
+        
+        String primerString = "Hola, ";
+        String segundoString = "Como estas?";
+        System.out.println("Concatenacion de String 1 y string 2");
+        System.out.println(primerString + segundoString);
+        
+        //REALISAR LA SUMA DE DOS NUMEROS ENTEROS
+        Integer numero1 = 50;
+        Integer numero2 = 50;
+        System.out.println("Suma de dos numeros enteros");
+        System.out.println(numero1 + numero2);
+        
+        
+        //De Integer a Double
+        Integer numeroTemp1 = 59;
+        System.out.println("Pasar de Integer a Double");
+        Double numeroDouble = numeroTemp1.doubleValue();
+        System.out.println(numeroDouble);
+        //De String a Double
+        String palabraTemp1 = "5.6777";
+        Double dobleString = Double.parseDouble(palabraTemp1);
+        System.out.println("Pasar de String a Doble");
+        System.out.println(dobleString);
+        //PASAR DE DOUBLE a string
+        String stringDouble = Double.toString(dobleString);
+        System.out.println("Pasar de Double A String ");
+        System.out.println(stringDouble);
+        //DE DOUBLE A INTEGER
+        System.out.println("De Double A Integer");
+        Integer dobleInteger = dobleString.intValue();
+        System.out.println(dobleInteger);
+    
+    //SEGUNDO Ejercicio
+        System.out.println("\n\n SEGUNDO EJERCICIO \n\n");
+        System.out.println("Convertir Double a Integer");
+        //PASAR DE DOBLE A INTEGER
+        Double sdt1 = 3.14;
+        Double sdt2 = 2.8689;
+        Double sdt3 = 5.85;
+        Double sdt4 = 4.49;
+        Double sdt5 = 2.10;
+        System.out.println("Double n1 = " + sdt1);
+        System.out.println("Double n2 = " + sdt2);
+        System.out.println("Double n3 = " + sdt3);
+        System.out.println("Double n4 = " + sdt4);
+        System.out.println("Double n5 = " + sdt5);
+        Integer sn1 = sdt1.intValue();
+        Integer sn2 = sdt2.intValue();
+        Integer sn3 = sdt3.intValue();
+        Integer sn4 = sdt4.intValue();
+        Integer sn5 = sdt5.intValue();
+        System.out.println("Integer n1 = " + sn1);
+        System.out.println("Integer n2 = " + sn2);
+        System.out.println("Integer n3 = " + sn3);
+        System.out.println("Integer n4 = " + sn4);
+        System.out.println("Integer n5 = " + sn5);
+        System.out.println("Convertir Integer a Double");
+        Integer snt1 = 1945;
+        Integer snt2 = 2010;
+        Integer snt3 = 218;
+        Integer snt4 = 684;
+        System.out.println("Integer n1 = " + snt1);
+        System.out.println("Integer n2 = " + snt2);
+        System.out.println("Integer n3 = " + snt3);
+        System.out.println("Integer n4 = " + snt4);
+        Double sd1 = snt1.doubleValue();
+        Double sd2 = snt2.doubleValue();
+        Double sd3 = snt3.doubleValue();
+        Double sd4 = snt4.doubleValue();
+        System.out.println("Double n1 = " + sd1);
+        System.out.println("Double n2 = " + sd2);
+        System.out.println("Double n3 = " + sd3);
+        System.out.println("Double n4 = " + sd4);
+    }
+}
