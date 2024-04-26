@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+    public class Experiencia laboral de una persona.{
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Que experiencia tienes en el trabajo: ");
+        int experiencia = scanner.nextInt();
+
+        
+        if (experiencia >= 1 && experiencia <= 5) {
+            System.out.println("Principiante");
+        } else if (experiencia > 5 && experiencia <= 10) {
+            System.out.println("Intermedio");
+        } else if (experiencia > 10) {
+            System.out.println("Experto");
+        } else {
+            System.out.println("Tienes una mala experiencia laboral.");
+        }
+
+        
+        System.out.print("Ingrese un numero: ");
+        int numero = scanner.nextInt();
+        if (numero % 2 == 0) {
+            System.out.println("El numero es par.");
+        } else {
+            System.out.println("El numero es impar.");
+        }
+
+        
+        System.out.print("Ingrese un año: ");
+        int año = scanner.nextInt();
+        if ((año % 4 == 0 && año % 100 != 0) || año % 400 == 0) {
+            System.out.println("El año ingresado es bisiesto.");
+        } else {
+            System.out.println("El año ingresado no es bisiesto.");
+        }
+
+        scanner.close();
+    }
+}

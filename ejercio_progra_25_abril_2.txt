@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class segundo ejercio numeros impares o pares {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingresa una vocal: ");
+        String vocal = scanner.nextLine().toLowerCase();
+
+        switch (vocal) {
+            case "a":
+                System.out.println("carrito");
+                break;
+            case "e":
+                System.out.println("Rafael");
+                break;
+            case "i":
+                System.out.println("Ingles");
+                break;
+            case "o":
+                System.out.println("Sale");
+                break;
+            case "u":
+                System.out.println("UMES");
+                break;
+            default:
+                System.out.println("No se encontró una palabra que comience con esa vocal.");
+                break;
+        }
+    }
+}
