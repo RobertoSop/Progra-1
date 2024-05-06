@@ -1,0 +1,40 @@
+
+NUM1 = 10
+NUM2 = 5
+SUMA = NUM1+NUM2
+print(F"LA SUMA ES {SUMA}" )
+
+num1 = 15
+num2 = 7
+resta = num1-num2
+print(F"la resta es  {resta}" )
+
+NUM1 = 15
+NUM2 = 5
+multiplicacion = NUM1*NUM2
+print(F"la multipliccion es  {multiplicacion}" )
+
+num1 = 50
+num2 = 2
+division = num1/num2
+print(F"la division es  {division}" )
+
+
+num1 = 4
+num2 = 3
+
+resultado = num1 ** num2
+print( F"el numero elevado  es  {resultado}")  
+
+
+
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+numero = int(input("Ingresa un número para calcular su factorial: "))
+resultado = factorial(numero)
+print(f"El factorial de {numero} es {resultado}")
