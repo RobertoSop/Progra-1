@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int contraseña;
+    int numero;
+    int suma;
+    int multiplicacion;
+
+    cout << "Ingresa una contraseña numérica: ";
+    cin >> contraseña;
+
+    cout << "Ingresa el número ingresado: ";
+    cin >> numero;
+
+    suma = contraseña + numero;
+    multiplicacion = suma * numero;
+
+    cout << "Operación de suma: " << contraseña << " + " << numero << " = " << suma << endl;
+    cout << "Operación de multiplicación: " << suma << " x " << numero << " = " << multiplicacion << endl;
+    cout << "Contraseña cifrada: " << multiplicacion << endl;
+
+    return 0;
+} 
